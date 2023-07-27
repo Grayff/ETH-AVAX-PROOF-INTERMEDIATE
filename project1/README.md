@@ -2,17 +2,17 @@
 This repository contains a Solidity smart contract called "ExceptionExample." The contract demonstrates the use of different exception-handling techniques in Solidity.
 
 ## Table of Contents
-Overview
+1. Overview
 
-Requirements
+2. Requirements
 
-Installation
+3. Installation
 
-Usage
+4. Usage
 
-Exception Handling
+5. Exception Handling
 
-License
+6. License
 
 ## Overview
 The ExceptionExample contract is a simple demonstration of how to handle exceptions and errors in Solidity. It includes three functions:
@@ -45,7 +45,7 @@ Solidity-compatible development environment (e.g., Remix, Truffle)
 ## Usage
 After setting up your Solidity development environment, you can deploy and interact with the ExceptionExample contract using your preferred Ethereum wallet or client.
 
-Exception Handling
+## Exception Handling
 The ExceptionExample contract demonstrates three different exception handling techniques:
 
 1. Using require(): The `setValue(uint _value)` function uses `require()` to validate the `input _value`. It ensures that the provided value is greater than zero, and if not, it will revert the transaction with the error message "Value must be greater than zero."

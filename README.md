@@ -21,7 +21,11 @@ The repository currently includes the following  projects:
 
 1. Project folder: project1
 
-   Description: It consists of a smart contract that implements the require(), assert(), and revert() statements.The ExceptionExample contract is a simple demonstration of how to handle exceptions and errors in Solidity. 
+   Description: It consists of a smart contract that implements the require(), assert(), and revert() statements.The ExceptionExample contract is a simple demonstration of how to handle exceptions and errors in Solidity.
+
+2. Project folder: project4
+
+   Description: This is a Solidity smart contract for the Degen Gaming Token (DGT) which is an ERC20 token on the Ethereum blockchain. The contract allows users to interact with the token, including transferring tokens, burning tokens, minting new tokens (only accessible to the contract owner), and redeeming tokens for in-game items in the Degen Gaming platform's store.
 
 ## Getting Started
 To get started with the projects in this repository, follow these steps:
